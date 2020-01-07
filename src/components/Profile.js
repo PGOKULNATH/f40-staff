@@ -101,8 +101,7 @@ const Profile = () => {
             <div>
               <p></p><br />
               <p><b>Name: </b>{myprofile.name}</p>
-              <p><b>RollNo:</b>{myprofile.rollNo}</p>
-              <p><b>Batch:</b>{myprofile.batch}</p>
+              <p><b>ID:</b>{myprofile.rollNo}</p>
               <p><b>Email:</b>{myprofile.mailId}</p>
             </div>
           </div>
