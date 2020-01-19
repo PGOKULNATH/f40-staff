@@ -1,6 +1,7 @@
 import React, {useContext, useEffect} from 'react';
 import {Button,Accordion} from 'react-bootstrap';
 import Loading from './Loading';
+import Error from './Error';
 import server from '../config/server';
 import DataContext from '../context/data/dataContext';
 
@@ -80,7 +81,7 @@ const Tasks = () =>{
 
   //any error can be handle by this
   else if(tasks_error){
-    return <h1>Something goes wrong</h1>
+    return <Error />
   }
 
   //this is will call either show attachment or post attachment functions
